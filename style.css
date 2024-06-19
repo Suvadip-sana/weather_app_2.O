@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     font-family: "Rubik", sans-serif;
     color: #fff;
-    background-image: url(/background/background2.jpg);
+    background-image: url(/background/background3.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body::before {
 
 .weather-app {
     position: relative;
-    background-image: url(/background/background2.jpg);
+    background-image: url(/background/background3.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
