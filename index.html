@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="shortcut icon" href="/assets/favicon3.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="weather-app">
+
+            <div class="first-portion">
+                <div class="logo">
+                    <img src="/assets/logo1.png" alt="">
+                </div>
+                 <div class="temp-city none">
+                    <h1 class="temp">32&#176;</h1>
+                    <h1 class="city">Kolkata</h1>
+                 </div>
+
+                <div class="date-time none">
+                    <div class="time">
+                        <p>01:11</p>
+                        <span class="am-pm">PM</span> 
+                    </div>
+                    <div class="date">
+                        Sunday, 26 October
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="second-portion">
+
+                <div class="search">
+                    <input type="text" class="input-val" placeholder="Search Location...">
+                    <button type="submit" id="button" class="fa-solid fa-magnifying-glass"></button>
+                </div>
+
+                <div class="not-found none">
+                    <img src="/assets/404error2.png" alt="">
+                    <p class="errorMsg">  Location not found...</p>
+                    <p class="errorMsg2">No matching city found</p>
+                </div>
+                
+                <div class="no-input none">
+                    <i class="fi fi-ts-problem-solving"></i>
+                    <p class="errorMsg">Please enter a city name for weather details..</p>
+                </div>
+
+                
+                    <div class="status none">
+                    
+                        <div class="img">
+                            <img src="" class="img">
+                        </div>
+    
+                        <h2 class="stat none">Sunny</h2>
+                    </div>
+    
+                    <div class="location none">
+                        <p class="city2">Kolkata, </p> 
+                        <span class="c-code">IN</span>
+                    </div>
+    
+                    <ul class="lists none">
+                        <li><i class="fi fi-ts-temperature-high"></i>Tempurature <span class="span1">32 <sup>°C</sup></span></li>
+                        <li><i class="fi fi-ts-humidity"></i>Humidity <span class="span2">67%</span></li>
+                        <li><i class="fi fi-ts-temperature-list"></i>Feels Like <span class="span3">33 <sup>°C</sup></span></li>
+                        <li><i class="fi fi-ts-low-vision"></i>Visibility <span class="span4">6 Km</span></li>
+                        <li><i class="fi fi-ts-wind"></i>Wind speed <span class="span5">30 Km/h</span></li>
+                    </ul>
+
+            </div>
+
+    </div>
+
+    <div class="footer">
+        <h2 class="co">Powerd By OpenWeather</h2>
+        <h2 class="copy">&copy; Crafted By <span>SUVADIP</span></h2>
+    </div>
+
+    <div class="mob-footer none">
+        <p class="p1">&copy; Crafted By <span>SUVADIP</span></p>
+        <p class="p2">Powerd By OpenWeather</p>
+    </div>
+
+    <script src="/JS/app.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
