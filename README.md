@@ -30,8 +30,12 @@ Here --> [Weather App](https://suvadip-sana.github.io/new_weather_app/)
 
 
 ## Screenshots
-<img src="screenshots/screenshot1.png" alt="Screenshot 1" width="400">
-<img src="screenshots/screenshot2.png" alt="Screenshot 2" width="400">
+
+### Desktop View
+<img src="screenshots/screenshot1.webp" alt="Screenshot 1" width="800">
+
+### Mobile View
+<img src="screenshots/screenshot2.webp" alt="Screenshot 2" width="300" height ="600">
 
 <!-- ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
