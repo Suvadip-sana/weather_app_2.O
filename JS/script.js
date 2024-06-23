@@ -64,7 +64,6 @@ async function checkWeather(city, initialLoad = false) {
         const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
 
         const data = await fetch(`${URL}`).then((response) => response.json());
-        console.log(data);
 
         if (data.cod === `404` || !/^[a-zA-Z\s]+$/.test(city.trim())) {
             not_found.classList.add("flex");
