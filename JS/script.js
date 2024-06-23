@@ -111,7 +111,7 @@ async function checkWeather(city, initialLoad = false) {
         windSpeed.innerHTML = `${Math.round(data.wind.speed)} Km/h`;
 
         const iconCode = data.weather[0].icon;
-        const iconURL = `http://openweathermap.org/img/wn/${iconCode}@4x.png`;
+        const iconURL = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
         image.innerHTML = `<img src="${iconURL}" class="img" alt="" height="60">`;
 
     } catch (error) {
