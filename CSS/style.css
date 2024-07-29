@@ -26,6 +26,8 @@ body {
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
+    transition: background-image 0.5s ease-in-out;
+
 }
 
 body::before {
