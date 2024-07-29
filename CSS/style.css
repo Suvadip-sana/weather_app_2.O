@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
     font-family: "Rubik", sans-serif;
     color: #fff;
-    background-image: url(/dayImage/background5.jpg);
+    background-image: url(../dayImage/background5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
