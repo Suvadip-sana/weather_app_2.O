@@ -30,8 +30,9 @@ function setBackgroundImage(images, isNight) {
     const randomIndex = Math.floor(Math.random() * images.length);
     console.log(randomIndex);
     console.log(nightImages.length);
-    document.body.style.backgroundImage = `url('${images[randomIndex]}')`;
-    document.querySelector('.weather-app').style.backgroundImage = `url('${images[randomIndex]}')`;
+    const selectedImage = images[randomIndex];
+    document.body.style.backgroundImage = `url('${selectedImage}')`;
+    weatherApp.style.backgroundImage = `url('${selectedImage}')`;
 
      // Update the search button's class based on time
      if (isNight) {
