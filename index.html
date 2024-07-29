@@ -6,17 +6,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-thin-straight/css/uicons-thin-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-straight/css/uicons-regular-straight.css'>
-    <link rel="shortcut icon" href="favicon3.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon3.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Weather App</title>
 </head>
 <body>
+
+    <!--  -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-icon ">
+                <span class="loader"></span>
+            </div>
+            <h2>Detecting your location</h2>
+            <p>Your current location will be displayed on the App & used for <br>calculating Real Time weather.</p>
+        </div>
+    </div>
+    <!--  -->
 
     <div class="weather-app">
 
             <div class="first-portion">
                 <div class="logo">
-                    <img src="logo1.png" alt="">
+                    <img src="./assets/logo1.png" alt="">
                 </div>
                  <div class="temp-city none">
                     <h1 class="temp">32&#176;</h1>
@@ -43,7 +55,7 @@
                 </div>
 
                 <div class="not-found none">
-                    <img src="404error2.png" alt="">
+                    <img src="./assets/404error2.png" alt="">
                     <p class="errorMsg">  Location not found...</p>
                     <p class="errorMsg2">No matching city found</p>
                 </div>
@@ -90,7 +102,8 @@
         <p class="p2">Powerd By OpenWeather</p>
     </div>
 
-    <script src="app.js"></script>
-    <script src="script.js"></script>
+    <script src="./JS/app.js"></script>
+    <script src="./JS/location.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
