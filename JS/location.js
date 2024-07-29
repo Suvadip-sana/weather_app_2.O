@@ -12,6 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (navigator.geolocation) {
         getPosition()
             .then((position) => {
+                
+                // Set a default background image before fetching data
+                setBackgroundImage(dayImages);
+                
                 getWeatherByCoordinates(position.coords.latitude, position.coords.longitude)
                     .then(() => {
                         loadingScreen.classList.remove("flex");
@@ -22,6 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
             })
             .catch((err) => {
+
+                // Set a default background image before fetching data
+                setBackgroundImage(dayImages);
+                
                 alert("You have disabled location service. Allow 'This APP' to access your location. Your current location will be used for calculating real-time weather.");
                 checkWeather("Kolkata", true); // Default city if location is denied
                 loadingScreen.classList.add("none");
