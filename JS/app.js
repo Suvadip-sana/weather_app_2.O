@@ -24,25 +24,25 @@ const months = [
 ];
 
 const dayImages = [
-    'dayImage/background1.jpg', 
-    'dayImage/background2.jpg', 
+    'dayImage/background1.webp', 
+    'dayImage/background2.webp', 
     'dayImage/background3.webp', 
-    'dayImage/background4.jpg', 
-    'dayImage/background5.jpg', 
-    'dayImage/background6.jpg', 
-    'dayImage/background7.jpg', 
-    'dayImage/background8.jpg',
+    'dayImage/background4.webp', 
+    'dayImage/background5.webp', 
+    'dayImage/background6.webp', 
+    'dayImage/background7.webp', 
+    'dayImage/background8.webp',
 ];
 
 const nightImages = [
-    'nightImage/background9.jpg', 
-    'nightImage/background10.jpg', 
+    'nightImage/background9.webp', 
+    'nightImage/background10.webp', 
     'nightImage/background11.webp', 
-    'nightImage/background12.jpg', 
-    'nightImage/background13.jpg', 
-    'nightImage/background14.jpg', 
-    'nightImage/background15.jpg', 
-    'nightImage/background16.jpg',
+    'nightImage/background12.webp', 
+    'nightImage/background13.webp', 
+    'nightImage/background14.webp', 
+    'nightImage/background15.webp', 
+    'nightImage/background16.webp',
 ];
 
 
