@@ -25,6 +25,17 @@ no_input = document.querySelector(".no-input"),
 loadingScreen = document.querySelector(".loading-screen"),
 weatherApp = document.querySelector(".weather-app");
 
+
+// Preload Images
+function preloadImages(images) {
+    images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+    });
+}
+
+
+
 // Function to set the background image based on time
 function setBackgroundImage(images, isNight) {
     const randomIndex = Math.floor(Math.random() * images.length);
@@ -42,7 +53,14 @@ function setBackgroundImage(images, isNight) {
         searchBtn.classList.add("day-mode");
         searchBtn.classList.remove("night-mode");
     }
-}
+};
+
+
+
+// Preload all images
+preloadImages([...dayImages, ...nightImages]);
+
+
 
 // Function to get weather data by coordinates
 async function getWeatherByCoordinates(lat, lon) {
