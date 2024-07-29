@@ -20,7 +20,7 @@ body {
     font-family: "Rubik", sans-serif;
     color: #fff;
 /*     background-image: "./dayImage/background5.webp"; */
-    background-image: url("./dayImage/background5.webp");
+    background-image: url("../dayImage/background5.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body::before {
 .weather-app {
     position: relative;
 /*     background-image: "./dayImage/background3.webp"; */
-    background-image: url("./dayImage/background3.webp");
+    background-image: url("../dayImage/background3.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
