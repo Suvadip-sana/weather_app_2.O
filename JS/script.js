@@ -39,8 +39,6 @@ function preloadImages(images) {
 // Function to set the background image based on time
 function setBackgroundImage(images, isNight) {
     const randomIndex = Math.floor(Math.random() * images.length);
-    console.log(randomIndex);
-    console.log(nightImages.length);
     const selectedImage = images[randomIndex];
     document.body.style.backgroundImage = `url('${selectedImage}')`;
     weatherApp.style.backgroundImage = `url('${selectedImage}')`;
@@ -165,7 +163,6 @@ async function checkWeather(city, initialLoad = false) {
         const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
 
         const data = await fetch(`${URL}`).then((response) => response.json());
-        console.log(data);
 
         if (data.cod === `404` || !/^[a-zA-Z\s]+$/.test(city.trim())) {
             
