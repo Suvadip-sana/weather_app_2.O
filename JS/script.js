@@ -44,7 +44,7 @@ function setBackgroundImage(images, isNight) {
     weatherApp.style.backgroundImage = `url('${selectedImage}')`;
 
      // Update the search button's class based on time
-     if (isNight) {
+     if (isNight == true) {
         searchBtn.classList.add("night-mode");
         searchBtn.classList.remove("day-mode");
     } else {
