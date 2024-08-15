@@ -349,10 +349,10 @@ body::before {
     background-color: #fff;
 }
 
-/* .second-portion .search button:hover {
+.second-portion .search button:hover {
     color: black;
     background-color: #fff;
-} */
+}
 
 .second-portion .status {
     display: flex;
