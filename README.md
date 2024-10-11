@@ -32,10 +32,10 @@ Here --> [Weather App](https://suvadip-sana.github.io/new_weather_app/)
 ## Screenshots
 
 ### Desktop View
-<img src="screenshots/screenshot1.webp" alt="Screenshot 1" width="800">
+<img src="screenshots/weather2.gif" alt="Screenshot 1" width="500">
 
 ### Mobile View
-<img src="screenshots/screenshot2.webp" alt="Screenshot 2" width="300" height ="600">
+<img src="screenshots/screenshot2.webp" alt="Screenshot 2" width="250" height ="500">
 
 <!-- ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
